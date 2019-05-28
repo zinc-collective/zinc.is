@@ -5,4 +5,36 @@
   Add custom styles here.
 
 */
+header {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.container {
+position: absolute;
+text-align: center;
+color: white;
+}
+
+.page_blurb {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 40%;
+}
+
+nav {
+  position: relative;
+  z-index: 9999;
+  margin-left: 60%;
+}
+
+.logo {
+  position: relative;
+  width: 15%;
+  margin-left: 10%;
+  margin-top: 3%;
+  right:80px;
+}
