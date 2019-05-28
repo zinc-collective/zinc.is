@@ -1066,8 +1066,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1108,6 +1108,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .gold { color: #ffb700; }
 .yellow { color: #ffd700; }
 .light-yellow { color: #fbf1a9; }
+.zinc-purple { color: #600d71; }
 .purple { color: #5e2ca5; }
 .light-purple { color: #a463f2; }
 .dark-pink { color: #d5008f; }
@@ -1166,6 +1167,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-gold { background-color: #ffb700; }
 .bg-yellow { background-color: #ffd700; }
 .bg-light-yellow { background-color: #fbf1a9; }
+.bg-zinc-purple { background-color: #600d71; }
 .bg-purple { background-color: #5e2ca5; }
 .bg-light-purple { background-color: #a463f2; }
 .bg-dark-pink { background-color: #d5008f; }
@@ -1958,9 +1960,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 header { width: 100%; position: relative; text-align: center; color: white; }
 .container { position: absolute; text-align: center; color: white; }
-.page_blurb { position: absolute; top: 40%; left: 10%; width: 40%; }
+.page_blurb { position: absolute; top: 40%; left: 10%; width: 25%; }
 nav { position: relative; z-index: 9999; margin-left: 60%; }
 .logo { position: relative; width: 15%; margin-left: 10%; margin-top: 3%; right: 80px; }
+.top_copy { top: 70%; left: 50%; width: 50%; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
