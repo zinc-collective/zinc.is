@@ -5,6 +5,8 @@
   Add custom styles here.
 
 */
+
+
 header {
   width: 100%;
   position: relative;
@@ -16,11 +18,12 @@ header {
 position: absolute;
 text-align: center;
 color: white;
+width:100%
 }
 
 .page_blurb {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 10%;
   width: 25%;
 }
@@ -37,10 +40,4 @@ nav {
   margin-left: 10%;
   margin-top: 3%;
   right:80px;
-}
-
-.top_copy {
-  top: 70%;
-  left: 50%;
-  width: 50%;
 }
